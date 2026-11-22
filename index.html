@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PasswordPal™ | Security through suffering</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔐</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>🔐 PasswordPal™</h1>
+<p class="tag">Security through suffering. If it's not painful, is it even secure?</p>
+
+<div class="card" id="card">
+  <div class="kevin">
+    <svg viewBox="0 0 64 80" aria-hidden="true"><path d="M16 36V24a16 16 0 0 1 32 0v12" fill="none" stroke="#12372a" stroke-width="7"/><rect x="6" y="34" width="52" height="42" rx="8" fill="#ffd23f" stroke="#12372a" stroke-width="3"/><circle cx="22" cy="52" r="4" fill="#12372a"/><circle cx="42" cy="52" r="4" fill="#12372a"/><path id="mouth" d="M24 66q8-6 16 0" fill="none" stroke="#12372a" stroke-width="3" stroke-linecap="round"/></svg>
+    <div class="bubble" id="kevin">Hi, I'm Kevin. I'll be judging you today.</div>
+  </div>
+  <label for="user">Username (or email, or vibes)</label>
+  <input id="user" autocomplete="off">
+  <label for="pw">Password</label>
+  <input id="pw" type="text" autocomplete="off" aria-describedby="rules">
+  <ul id="rules"></ul>
+  <div class="row"><button class="mini" id="hier" type="button">Insert hieroglyph 𓂀</button><span>Password expires in <b id="exp">4:00</b></span></div>
+  <button id="go" type="button" disabled>Log In</button>
+  <div class="bar" id="bar"><div id="fill"></div></div>
+  <div id="status" role="status" aria-live="polite"></div>
+  <div class="links"><a href="#" id="forgot">Forgot password?</a><a href="#" id="cap">I am not a robot</a></div>
+</div>
+
+<section>
+  <h2>Why PasswordPal™?</h2>
+  <blockquote>Studies show 100% of people who log in too easily don't appreciate their email. Our Friction-as-a-Service™ engine turns a 3-second task into a meaningful 47-minute journey of self-discovery. Hackers give up in under 10 minutes. You, a hero, persevere.</blockquote>
+  <p><b>⭐⭐⭐⭐⭐</b> "I forgot why I wanted to log in, but I grew as a person." <i>Dave, still trying since March</i></p>
+  <p><b>⭐⭐⭐⭐⭐</b> "My mom can't get in, my hacker can't get in, and honestly neither can I. Perfect security." <i>Priya S.</i></p>
+</section>
+
+<section>
+  <h2>Customer support</h2>
+  <p class="hold">📞 1-800-NOT-HELP. Estimated wait: ∞ minutes. Hold music: one kazoo, four notes, forever.</p>
+  <h2>FAQ</h2>
+  <p><b>Is this secure?</b><br>Nobody has ever gotten in. Including you. That's the proof.</p>
+  <p><b>How do I cancel?</b><br>Log in and click "Cancel." (See above.)</p>
+  <p><b>Can I just not use it?</b><br>Kevin is hurt that you asked.</p>
+  <p class="fine">PasswordPal™ is not responsible for lost emails, time, sanity, or relationships. Results may vary. They will not. By logging in, you agree to let Kevin judge you.</p>
+</section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
